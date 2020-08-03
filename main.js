@@ -205,6 +205,7 @@ function deleteAll(){
 		menuCartExtendedCheckOut.classList.remove("card__button__blue");
 		menuCartExtendedCheckOut.classList.add("disable");
 		localStorage.removeItem("cart");
+		window.location.reload();
 	}
 };
 
